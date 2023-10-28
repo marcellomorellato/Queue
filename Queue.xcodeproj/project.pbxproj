@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		AD20DBCA2AED6DEC00086DC7 /* QueueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20DBC92AED6DEC00086DC7 /* QueueApp.swift */; };
 		AD20DBCC2AED6DEC00086DC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20DBCB2AED6DEC00086DC7 /* ContentView.swift */; };
-		AD20DBCE2AED6DEC00086DC7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20DBCD2AED6DEC00086DC7 /* Item.swift */; };
 		AD20DBD02AED6DED00086DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD20DBCF2AED6DED00086DC7 /* Assets.xcassets */; };
 		AD20DBD32AED6DED00086DC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD20DBD22AED6DED00086DC7 /* Preview Assets.xcassets */; };
 		AD20DBDD2AED6DED00086DC7 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20DBDC2AED6DED00086DC7 /* QueueTests.swift */; };
 		AD20DBE72AED6DED00086DC7 /* QueueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20DBE62AED6DED00086DC7 /* QueueUITests.swift */; };
 		AD20DBE92AED6DED00086DC7 /* QueueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20DBE82AED6DED00086DC7 /* QueueUITestsLaunchTests.swift */; };
+		AD20DBF82AED6E6500086DC7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20DBF72AED6E6500086DC7 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		AD20DBC62AED6DEC00086DC7 /* Queue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Queue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD20DBC92AED6DEC00086DC7 /* QueueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueApp.swift; sourceTree = "<group>"; };
 		AD20DBCB2AED6DEC00086DC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AD20DBCD2AED6DEC00086DC7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AD20DBCF2AED6DED00086DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD20DBD22AED6DED00086DC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD20DBD82AED6DED00086DC7 /* QueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +45,7 @@
 		AD20DBE22AED6DED00086DC7 /* QueueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD20DBE62AED6DED00086DC7 /* QueueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueUITests.swift; sourceTree = "<group>"; };
 		AD20DBE82AED6DED00086DC7 /* QueueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD20DBF72AED6E6500086DC7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +98,9 @@
 			children = (
 				AD20DBC92AED6DEC00086DC7 /* QueueApp.swift */,
 				AD20DBCB2AED6DEC00086DC7 /* ContentView.swift */,
-				AD20DBCD2AED6DEC00086DC7 /* Item.swift */,
 				AD20DBCF2AED6DED00086DC7 /* Assets.xcassets */,
 				AD20DBD12AED6DED00086DC7 /* Preview Content */,
+				AD20DBF72AED6E6500086DC7 /* ViewModel.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -261,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD20DBCC2AED6DEC00086DC7 /* ContentView.swift in Sources */,
-				AD20DBCE2AED6DEC00086DC7 /* Item.swift in Sources */,
+				AD20DBF82AED6E6500086DC7 /* ViewModel.swift in Sources */,
 				AD20DBCA2AED6DEC00086DC7 /* QueueApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
